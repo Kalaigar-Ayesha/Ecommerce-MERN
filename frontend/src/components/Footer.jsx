@@ -3,7 +3,7 @@ import { assets } from '../assets/asserts';
 
 const Footer = () => {
   return (
-    <div className='w-full bg-gradient-to-r from-[#f56f21] to-[#f38028] text-white'>
+    <div className='w-full bg-gradient-to-r from-[#f56f21] to-[#f38028] text-white rounded-md'>
       {/* Main Footer Content */}
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 py-10 px-5 sm:px-20 text-sm'>
         {/* Logo and Description */}

@@ -1,7 +1,9 @@
 import React from 'react';
 import { assets } from '../assets/asserts';
-
+import { useNavigate } from 'react-router-dom';
 const Hero = () => {
+
+  const navigate = useNavigate();
   return (
     <div className='relative flex flex-col sm:flex-row items-center justify-center min-h-[80vh] bg-gradient-to-r from-[#f3945d] to-[#FEB47B] text-white overflow-hidden'>
       {/* Hero Left Side */}
@@ -21,7 +23,7 @@ const Hero = () => {
 
           {/* Call to Action */}
           <div className='flex items-center justify-center sm:justify-start gap-2 mt-8'>
-            <button className='px-6 py-2 bg-white text-[#FF7E5F] font-semibold text-sm md:text-base rounded-full hover:bg-[#FFD700] hover:text-white transition-colors duration-300'>
+            <button onClick={()=>navigate('/collection')} className='px-6 py-2 bg-white text-[#FF7E5F] font-semibold text-sm md:text-base rounded-full hover:bg-[#FFD700] hover:text-white transition-colors duration-300'>
               Explore the Collection
             </button>
           </div>

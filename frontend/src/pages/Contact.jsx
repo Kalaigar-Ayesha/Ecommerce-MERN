@@ -16,9 +16,7 @@ const Contact = () => {
               <p className='text-gray-500'>Elite Bazaar Headquarters <br /> Downtown District, New York, NY 10001 <br />
               United States</p>
               <p className='text-gray-500'> Phone: +1 (555) 123-4567 <br /> Email:support@elitebazaar.com</p>
-              <p className='text-gray-600 font-semibold text-xl'>Careerss At Elite</p>
-              <p className='text-gray-500'>Lear more about our teams and job openings.</p>
-              <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500 rounded-md'>Explore Jobs</button>
+              
 
             </div>
       </div>
